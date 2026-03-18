@@ -18,16 +18,23 @@
 //     console.log(c);
 // }) (5,10);
  
-function a() {
-    var b = 10;
-    d();
-    function d() {
-        function c() {
-            console.log(b);
-        } c();
-    }
-}
+// function a() {
+//     var b = 10;
+//     d();
+//     function d() {
+//         function c() {
+//             console.log(b);
+//         } c();
+//     }
+// }
 
-a();
+// a();
 
+
+let a;
+a =10;
+console.log(a);
+
+const b = 20;
+console.log(b);
 
